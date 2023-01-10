@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <!-- dashboard area -->
+
+        <div class="container">
+            <h2>Guess The Random Number Between 1-100</h2>
+            <img src="" alt="">
+
+            <div class="buttons">
+                <p>Select The Difficulty</p>
+                <div class="button-wrapper">
+                    <button>Easy: 10 Attempts</button>
+                    <button>Hard: 5 Attempts</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- game area -->
+        <div class="game">
+            <div class="game-button">
+                <button>New Game</button>
+            </div>
+
+            <div>
+                <h3>Your Guess</h3>
+                <input type="text" id="input-box" min="1" max="100" placeholder="Enter Your Guess">
+            </div>
+
+            <div class="result">
+                <div class="info">
+                    <p>No of previous attempts</p>
+                    <span id="attempts">0</span>
+                <div class="info">
+                    <p>No of previous guesses</p>
+                    <span id="guesses">0</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+</body>
+</html>
